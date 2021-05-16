@@ -8,17 +8,18 @@ body {
 }
 
 .main {
-    height: 70vh;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .profile_photo {
     max-width: 15rem;
-    border: 2px solid black;
+    border: 2px solid lightgrey;
     border-radius: 50%;
-    margin: 2rem;
+    margin: 5rem;
 }
 
 h1 {
@@ -31,4 +32,45 @@ h2 {
     font-size: 1.25rem;
     text-align: center;
     margin: 5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.img_link {
+    background-color: lightgrey;
+    border: 2px solid lightgrey;
+    border-radius: .5rem;
+    width: 3rem;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .profile_photo {
+        margin: 2rem;
+    }
+
+    .dados {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .profile_data {
+        border-left: 1px solid lightgrey;
+        padding-left: 1rem;
+    }
+
+    .links {
+        margin-top: 0;
+    }
+
+    .img_link {
+        margin: 0 1rem;
+    }
+
 }
