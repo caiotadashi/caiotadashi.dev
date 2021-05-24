@@ -4,7 +4,7 @@ body {
     background: url(../img/bg.png);
     background-repeat: repeat;
     font-family: 'Roboto', sans-serif;
-    color: lightgrey;
+    color: white;
 }
 
 .main {
@@ -17,7 +17,7 @@ body {
 
 .profile_photo {
     max-width: 15rem;
-    border: 2px solid lightgrey;
+    border: 2px solid white;
     border-radius: 50%;
     margin: 3rem;
 }
@@ -41,11 +41,15 @@ h2 {
 }
 
 .img_link {
-    background-color: lightgrey;
-    border: 2px solid lightgrey;
+    background-color: white;
+    border: 2px solid white;
     border-radius: .5rem;
     width: 3rem;
     margin: 1rem;
+}
+
+.codepen {
+    fill: black;
 }
 
 @media screen and (min-width: 769px) {
